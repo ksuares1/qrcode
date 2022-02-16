@@ -5,6 +5,7 @@ h1 {
 .container{
     text-align: center;
     background-color: hsl(0, 0%, 100%);
+    border-radius:5px;
 }
 .attribution{
     text-align:center;

@@ -2,17 +2,20 @@ h1 {
     text-align: center;
 }
 
+
+h1, p{
+    font-family: "Outfit";
+    font-weight: 400, 700;
+}
 .container{
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     border-radius:5px;
     margin:auto;
-    width:35%;
+    width:25%;
     height:45%;
 }
-.attribution{
-    text-align:center;
-}
+
 p{
     text-align: center;
     font-size: 15px;
@@ -28,13 +31,21 @@ body{
     background-color:hsl(212, 45%, 89%);
 }
  
-@media screen and (max-width:1440px), (min-width:375px){
+@media screen{
+    body, .container, img{
+        max-width:1440px;
+        min-width:375px;
 
+    }
     } 
 
 
-.attribution { font-size: 11px; 
+.attribution { 
+    font-size: 11px; 
     text-align: center;
  }
     .attribution a { 
         color: hsl(228, 45%, 44%); }
+
+
+   
